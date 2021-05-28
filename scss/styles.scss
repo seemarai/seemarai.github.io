@@ -195,9 +195,12 @@ header {
 }
 
 #menu {
-    &.active {
+&.active {
         display: block;
+
     }
+
+   
 }
 
 #mobile-menu-open {
@@ -921,12 +924,13 @@ footer {
         display: block;
     }
 
-    #menu {
+     #menu {
         height: 100%;
         overflow-y: auto;
         box-shadow: none;
         border-radius: 0;
         width: 100%;
+        positiom:fixed;
 
         li {
             display: block;
